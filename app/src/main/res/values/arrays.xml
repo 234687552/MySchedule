@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>所有</item>
+        <item>工作</item>
+        <item>学习</item>
+        <item>生活</item>
+    </string-array>
+    <string-array name="edit_type">
+        <item>工作</item>
+        <item>学习</item>
+        <item>生活</item>
+    </string-array>
+</resources>
