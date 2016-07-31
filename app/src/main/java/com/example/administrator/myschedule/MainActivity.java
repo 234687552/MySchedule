@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements MyDialog.ItemClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_page);
         getSupportActionBar().hide();//隐藏标题栏
-        //防止多个activity绑定Fragment导致溢出，所以保证只有一个MyDialog
         myDialog = new MyDialog();
         //获取当天日期
         Calendar calendar = Calendar.getInstance();

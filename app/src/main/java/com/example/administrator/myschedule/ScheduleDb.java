@@ -96,7 +96,7 @@ public class ScheduleDb {
         values.put("day", newSchedule.getDay());
         values.put("schedule_text", newSchedule.getScheduleText());
         values.put("type", newSchedule.getType());
-        db.update("Schedule", values, "id = ?", new String[]{String.valueOf(id)});
+        db.update("Schedule", values, "id = ?",new String[]{String.valueOf(id)} );
         values.clear();
     }
 
